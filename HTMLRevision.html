@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> HTML Revision Website </title>
+    <link rel="Stylesheet" type"text/css" href="myStyle.css">
+    <script>
+      function images() {
+
+      }
+      function bulletedLists() {
+
+      }
+      function tables() {
+
+      }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="flex-container">
+<header>
+  <h1>HTML Revision Website <br></h1><p><strong>For revising HTML code for A-Level Computing. Yay!</strong></p>
+</header>
+
+<article class="article">
+  <h1>Images</h1>
+  <p>Images can be displayed in HTML, in HTML, images are defined with the <strong>&ltimg&gt</strong> tag.
+<br><br>
+The <strong>&ltimg&gt</strong> tag is empty, it contains attributes only, and does not have a closing tag.
+</p>
+  <p>
+  The src attribute specifies the URL (web address) of the image:</p>
+  <div class = "example"> <p>&ltimg src="url" alt="some_text" style="width:width;height:height;"&gt</p> </div>
+  <p> For example: </p>
+    <div class="example">
+      <p>&ltimg src="https://goo.gl/nVydIR" alt="HTML5 Icon" style="width:128px;height:128px;"&gt</p>
+    </div>
+  <p> Will display: </p>
+    <img img src="https://goo.gl/nVydIR" alt="HTML5 Icon" style="width:128px;height:128px;">
+  <p> If the image isn't found or cannot be loaded then this will display: </p>
+    <img img src="" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+</article>
+
+<article class="article">
+  <h1>Bulleted Lists</h1>
+  <p>Lists can be displayed in HTML There are two types of lists, orderd and unordered.
+<br> <br>
+An unordered list starts with the <strong>&ltul&gt</strong> tag. Each list item starts with the <strong>&ltli&gt</strong> tag.</p>
+  <p>
+  The list items will be marked with bullets (small black circles) by default:</p>
+  <div class = "example"> <p>&ltul&gt <br>
+  &nbsp &ltli&gtCoffee&lt/li&gt <br>
+  &nbsp &ltli&gtTea&lt/li&gt <br>
+  &nbsp &ltli&gtMilk&lt/li&gt <br>
+  &lt/ul>
+</p> </div>
+  <p> An ordered list starts with the <strong>&ltol&gt</strong> tag and each list item starts with the <strong>&ltli&gt</strong> tag as before. </p>
+    <div class="example">
+      <p>&ltol&gt <br>
+      &nbsp &ltli&gtCoffee&lt/li&gt <br>
+      &nbsp &ltli&gtTea&lt/li&gt <br>
+      &nbsp &ltli&gtMilk&lt/li&gt <br>
+      &lt/ol></p>
+    </div>
+  <p> This is what will be displayed: </p>
+  <h2>An Unordered List</h2>
+  <ul>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ul>
+<h2>An Ordered List</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+</article>
+<article class="article">
+  <h1>Tables</h1>
+  <p>Tables can also be displayed in HTML.
+<br><br>
+An HTML table is defined with the <strong>&lttable&gt</strong> tag.
+</p>
+  <p>
+  Each table row is defined with the <strong>&lttr&gt</strong> tag. A table header is defined with the <strong>&ltth&gt</strong> tag. By default, table headings are bold and centered. A table data/cell is defined with the <strong>&lttd&gt</strong> tag.</p>
+  <p> For example: </p>
+    <div class="example">
+      <p>
+        &lttable style="width:100%"&gt <br>
+  &nbsp &lttr&gt <br>
+    &nbsp &nbsp &ltth&gtFirstname&lt/th&gt<br>
+    &nbsp &nbsp &ltth&gtLastname&lt/th&gt<br>
+    &nbsp &nbsp &ltth&gtAge&lt/th&gt<br>
+  &nbsp &lt/tr&gt<br>
+  &nbsp &lttr&gt<br>
+    &nbsp &nbsp &lttd&gtJill&lt/td&gt<br>
+    &nbsp &nbsp &lttd&gtSmith&lt/td&gt<br>
+    &nbsp &nbsp &lttd&gt50&lt/td&gt<br>
+  &nbsp &lt/tr&gt<br>
+  &nbsp &lttr&gt<br>
+    &nbsp &nbsp &lttd&gtEve&lt/td&gt<br>
+    &nbsp &nbsp &lttd&gtJackson&lt/td&gt<br>
+    &nbsp &nbsp &lttd&gt94&lt/td&gt<br>
+  &nbsp &lt/tr&gt<br>
+  &nbsp &lttr&gt<br>
+    &nbsp &nbsp &lttd&gtJohn&lt/td&gt<br>
+    &nbsp &nbsp &lttd&gtDoe&lt/td&gt<br>
+    &nbsp &nbsp &lttd&gt80&lt/td&gt<br>
+  &nbsp &lt/tr&gt<br>
+&lt/table&gt<br>
+      </p>
+    </div>
+  <p> Will display: </p>
+  <table style="width:100%">
+<tr>
+  <th>Firstname</th>
+  <th>Lastname</th>
+  <th>Age</th>
+</tr>
+<tr>
+  <td>Jill</td>
+  <td>Smith</td>
+  <td>50</td>
+</tr>
+<tr>
+  <td>Eve</td>
+  <td>Jackson</td>
+  <td>94</td>
+</tr>
+<tr>
+  <td>John</td>
+  <td>Doe</td>
+  <td>80</td>
+</tr>
+</table>
+</article>
+<footer>Reference: <a href="https://www.w3schools.com/html/" target="_blank"> W3Schools.com </a> <br> Made By : Kristian Payne <a href="https://twitter.com/Thekris9376" target="_blank"> @TheKris9376 </a></footer>
+  </body>
+</html>
